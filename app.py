@@ -4,7 +4,8 @@ import csv
 from datetime import datetime
 
 # Set your Gemini API key here
-API_KEY = "AIzaSyAJdUDGE3NTeIaK5tR9y4rB0FZLrdJroUo"
+API_KEY = st.secrets["AIzaSyAJdUDGE3NTeIaK5tR9y4rB0FZLrdJroUo"]
+
 GEMINI_ENDPOINT = "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro-002:generateContent"
 
 # Call Gemini API
