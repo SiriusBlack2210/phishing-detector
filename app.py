@@ -6,7 +6,7 @@ import pandas as pd
 from datetime import datetime
 
 # ✅ Secure API key from Streamlit Secrets
-API_KEY = st.secrets["AIzaSyAJdUDGE3NTeIaK5tR9y4rB0FZLrdJroUo"]
+API_KEY = st.secrets["GEMINI_API_KEY"]
 GEMINI_ENDPOINT = "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro-002:generateContent"
 
 # 🔍 Detect phishing using Gemini
